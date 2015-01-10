@@ -1,5 +1,12 @@
 <div class="header">
 
-	<h1>Rex Ronin</h1>
+	{% if page.title %}
 
+		<h1>Rex Ronin - {{ page.title }}</h1>
+
+	{% else %}
+
+		<h1>Rex Ronin</h1>
+
+	{% endif %}
 </div>
