@@ -3,15 +3,39 @@ layout: default
 title: Simon Smart
 ---
 
-Bogan Ipsum
-===========
+<div id="articles">
+{% for post in paginator.posts limit:1 %}
+  <article>
+    <div class="item">
+      <div class="item_details">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <h4><a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_long_string }}</a></h4>
+      </div>
+      <div class="item_content">
+        {{ post.content }}
+      </div>
+      <div class="item_meta">
+        <span class="item_tags">
+          Tags: 
+          {% for tag in post.tags %}
+          <a href="/tags/{{ tag }}.html" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}
+          {% endfor %}
+        </span>
+      </div>
+    </div>
+  </article>
+{% endfor %}
+</div>
 
-Flat out like a fruit loop no worries grab us a muster. Shazza got us some coldie bloody get a dog up ya postie. As cunning as a bities how come a too right!. Lets get some figjam my as busy as a spit the dummy. Gutful of ropeable my as busy as a pot. Lets get some christmas to lets get some truckie.
-
-She'll be right kelpie flamin lets get some pot. As cunning as a bush telly mate flat out like a sanger. Shazza got us some spag bol to trent from punchy joey. Lets get some kero how lets get some skite. Lets throw a sleepout when we're going rotten. Trent from punchy drongo when mad as a slacker.
-
-Come a big smoke flamin built like a bottlo. Built like a two pot screamer my come a trackies. As stands out like bradman with grab us a ankle biter. He's got a massive bored sh*tless bloody we're going cab sav. She'll be right barbie mate trent from punchy no dramas. Gutful of buckley's chance no worries you little ripper give it a burl. You little ripper chuck a sickie when you little ripper slabs. Trent from punchy digger where flat out like a no-hoper. Trent from punchy sook when come a two pot screamer.
-
-Flat out like a pot when lets get some jug. Shazza got us some pozzy flamin shazza got us some beauty. Get a dog up ya cobber my he hasn't got a mate. Get a dog up ya perve flamin as dry as a bored sh*tless. Stands out like a show pony my mad as a brickie. She'll be right quid heaps built like a coathanger. We're going bushranger to it'll be wuss. He hasn't got a gobsmacked no worries as cunning as a quid.
-
-[bogan ipsum](http://boganipsum.com/)
+<div class="pagination">
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a href="/" class="previous">Newer</a>
+    {% else %}
+      <a href="/page{{ paginator.previous_page }}" class="previous">Newer Posts</a>
+    {% endif %}
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}" class="next">Older</a>
+  {% endif %}
+</div>

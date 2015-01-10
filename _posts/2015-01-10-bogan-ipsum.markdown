@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Simon Smart
+title: Bogan Ipsum
+topics: test "bogan ipsum"
 ---
 
 Bogan Ipsum
