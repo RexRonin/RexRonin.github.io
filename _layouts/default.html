@@ -22,13 +22,29 @@
 
 				<ul class="nav nav-pills">
 
-					<li role="presentation" class="active"><a href="#">Home</a></li>
+					{% if page.is_home %}
+						<li role="presentation" class="active"><a href="#">Home</a></li>
+					{% else %}
+						<li role="presentation"><a href="#">Home</a></li>
+					{% endif %}
 
-					<li role="presentation"><a href="{{ site.url }}/archive">Archive</a></li>
+					{% if page.is_archive %}
+						<li role="presentation" class="active"><a href="{{ site.url }}/archive">Archive</a></li>
+					{% else %}
+						<li role="presentation"><a href="{{ site.url }}/archive">Archive</a></li>
+					{% endif %}
 
-					<li role="presentation"><a href="{{ site.url }}/about">About</a></li>
+					{% if page.is_about %}
+						<li role="presentation" class="active"><a href="{{ site.url }}/about">About</a></li>
+					{% else %}
+						<li role="presentation"><a href="{{ site.url }}/about">About</a></li>
+					{% endif %}
 
-					<li role="presentation"><a href="{{ site.url }}/resources">Resources</a></li>
+					{% if page.is_resources %}
+						<li role="presentation" class="active"><a href="{{ site.url }}/resources">Resources</a></li>
+					{% else %}
+						<li role="presentation"><a href="{{ site.url }}/resources">Resources</a></li>
+					{% endif %}
 
 			</div>
 
