@@ -23,9 +23,9 @@
 				<ul class="nav nav-pills">
 
 					{% if page.is_home %}
-						<li role="presentation" class="active"><a href="#">Home</a></li>
+						<li role="presentation" class="active"><a href="{{ site.url }}">Home</a></li>
 					{% else %}
-						<li role="presentation"><a href="#">Home</a></li>
+						<li role="presentation"><a href="{{ site.url }}">Home</a></li>
 					{% endif %}
 
 					{% if page.is_archive %}
