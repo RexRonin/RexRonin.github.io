@@ -1,11 +1,8 @@
 ---
 layout: default
 title: Bogan Ipsum
-topics: test "bogan ipsum"
+tags: test "bogan ipsum"
 ---
-
-Bogan Ipsum
-===========
 
 Flat out like a fruit loop no worries grab us a muster. Shazza got us some coldie bloody get a dog up ya postie. As cunning as a bities how come a too right!. Lets get some figjam my as busy as a spit the dummy. Gutful of ropeable my as busy as a pot. Lets get some christmas to lets get some truckie.
 
