@@ -51,3 +51,4 @@ Other Blogs
 -----------
 
 - [Coding Horror](http://blog.codinghorror.com/)
+- [Devopsreactions](http://devopsreactions.tumblr.com/) This is more timewasting than anything else, but it is hilarious
