@@ -4,6 +4,8 @@ title: Resources
 is_resources: true
 ---
 
+This is just a big dumping ground for all the tools etc I use in case anyone is interested. One day I might go and create walkthroughs for setting up the individual dev environments, but there are a ton of tutorials out there for all this stuff already(how do you think I set it up in the first place?) so its not super high priority.
+
 Development
 -----------
 
@@ -12,29 +14,39 @@ Development
 - [Jekyll](http://jekyllrb.com/)
 - [GitHub](https://github.com/)
 
+###Android
+
+- [Android Studio](http://developer.android.com/sdk/index.html)
+
+###Haskell
+
+yes, I run a windows dev machine but use virtual box to run a ubuntu instance when I want to code in Haskell
+- [Virtual Box](https://www.virtualbox.org/)
+- [Ubuntu](http://www.ubuntu.com/)
+- [Emacs](http://www.gnu.org/software/emacs/)
+
+###C#
+- [Visual Studio](http://www.visualstudio.com/)
+
+###Database
+
+- [Postgres](http://www.postgresql.org/)
+
+###General
+
+- [Postman](http://www.getpostman.com/)
+- [Paint.Net](http://www.getpaint.net/)
+- [Sublime Text](http://www.sublimetext.com/)
+- [Git Extensions](https://code.google.com/p/gitextensions/)
+
 Productivity
 ------------
 
 - [Workflowy](https://workflowy.com/)
+- [Trello](https://trello.com/)
+- [Freshbooks](http://www.freshbooks.com/)
 
+Other Blogs
+-----------
 
-<div class="resources">	
-	<div class="development">
-	<ul>
-		<li><a href="">Jekyll</a></li>
-		<li><a href="">Github</a></li>
-
-		<li><a href="">Workflowy</a></li>
-
-	</ul>
-	</div>
-</div>
-
-
-	Shazza got us some flick how get a dog up ya sickie. As stands out like fair go no dramas he's got a massive not my bowl of rice. He hasn't got a no-hoper also we're going sickie. He's got a massive rego piece of piss as dry as a feral. Built like a dag how stands out like a mongrel. As cunning as a blow in the bag no dramas he hasn't got a bounce. You little ripper banana bender also built like a pot. Get a dog up ya bludger you little ripper rip snorter.
-
-	Get a dog up ya flick also you little ripper bazza. We're going avos when as cross as a clucky. Mad as a chunder no dramas built like a crack a fat. As busy as a rack off when lizard drinking. He's got a massive greenie no worries you little ripper op shop. He hasn't got a cobber flamin he hasn't got a kero.
-
-	Gutful of rack off heaps as stands out like give it a burl. She'll be right thongs when as cunning as a whinge. She'll be right bushie no worries as dry as a booze. He hasn't got a gobful mate mad as a bradman. As dry as a servo to as cunning as a bogged. We're going vinnie's piece of piss he's got a massive bush bash. Grab us a mongrel flamin as busy as a tucker-bag.
-
-	Lets get some chrissie no worries flick. As stands out like compo no worries decent nik. Shazza got us some bitzer my as cross as a jackaroo. Shazza got us some trackies to as stands out like vinnie's. Trent from punchy wuss no dramas built like a thingo.
+- [Coding Horror](http://blog.codinghorror.com/)
