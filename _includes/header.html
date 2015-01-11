@@ -1,12 +1,47 @@
 <div class="header">
 
-	{% if page.title %}
+	<div class="title">
+		{% if page.title %}
 
-		<h1>Rex Ronin - {{ page.title }}</h1>
+			<h1>Rex Ronin - {{ page.title }}</h1>
 
-	{% else %}
+		{% else %}
 
-		<h1>Rex Ronin</h1>
+			<h1>Rex Ronin</h1>
 
-	{% endif %}
+		{% endif %}
+	</div>
+
+	<div class="menu">
+		<ul class="nav nav-pills">
+
+			{% if page.is_home %}
+				<li role="presentation" class="active"><a href="{{ site.url }}">Home</a></li>
+			{% else %}
+				<li role="presentation"><a href="{{ site.url }}">Home</a></li>
+			{% endif %}
+
+			{% if page.is_archive %}
+				<li role="presentation" class="active"><a href="{{ site.url }}archive">Archive</a></li>
+			{% else %}
+				<li role="presentation"><a href="{{ site.url }}archive">Archive</a></li>
+			{% endif %}
+
+			{% if page.is_about %}
+				<li role="presentation" class="active"><a href="{{ site.url }}about">About</a></li>
+			{% else %}
+				<li role="presentation"><a href="{{ site.url }}about">About</a></li>
+			{% endif %}
+
+			{% if page.is_resources %}
+				<li role="presentation" class="active"><a href="{{ site.url }}resources">Resources</a></li>
+			{% else %}
+				<li role="presentation"><a href="{{ site.url }}resources">Resources</a></li>
+			{% endif %}
+
+		</ul>
+	</div>
+
 </div>
+
+

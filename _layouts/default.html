@@ -15,42 +15,17 @@
 	<body>
 
 		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
 
-			{% include header.html %}
+					{% include header.html %}			
 
-			<div class="menu">
-
-				<ul class="nav nav-pills">
-
-					{% if page.is_home %}
-						<li role="presentation" class="active"><a href="{{ site.url }}">Home</a></li>
-					{% else %}
-						<li role="presentation"><a href="{{ site.url }}">Home</a></li>
-					{% endif %}
-
-					{% if page.is_archive %}
-						<li role="presentation" class="active"><a href="{{ site.url }}archive">Archive</a></li>
-					{% else %}
-						<li role="presentation"><a href="{{ site.url }}archive">Archive</a></li>
-					{% endif %}
-
-					{% if page.is_about %}
-						<li role="presentation" class="active"><a href="{{ site.url }}about">About</a></li>
-					{% else %}
-						<li role="presentation"><a href="{{ site.url }}about">About</a></li>
-					{% endif %}
-
-					{% if page.is_resources %}
-						<li role="presentation" class="active"><a href="{{ site.url }}resources">Resources</a></li>
-					{% else %}
-						<li role="presentation"><a href="{{ site.url }}resources">Resources</a></li>
-					{% endif %}
-
+				</div>
 			</div>
 
 			<div class="content">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-6 col-md-offset-4">
 
 						{{content}}
 
@@ -58,7 +33,13 @@
 				</div>
 			</div>
 
-			{% include footer.html %}
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+
+					{% include footer.html %}
+
+				</div>
+			</div>
 
 		</div>
 
