@@ -12,6 +12,7 @@
 		{% endif %}
 	</div>
 
+	{% if page.no_menu == null || page.no_menu == false %}
 	<div class="menu">
 		<ul class="nav nav-pills">
 
@@ -41,6 +42,7 @@
 
 		</ul>
 	</div>
+	{% endif %}
 
 </div>
 
