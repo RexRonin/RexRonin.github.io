@@ -19,7 +19,7 @@ a:hover {
 	margin-top: 10px;
 }
 
-	.menu nav li {
+	.menu nav li.active, .menu nav li.hover {
 		color:#3D4C4E;
 		background-color:#E4CD80;
 	}
