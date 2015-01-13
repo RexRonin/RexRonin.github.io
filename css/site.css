@@ -19,7 +19,7 @@ a:hover {
 	margin-top: 10px;
 }
 
-	.menu>nav>li.active, .menu>nav>li.hover {
+	.nav-pills>li.active>a, .nav-pills>li.hover>a {
 		color:#3D4C4E;
 		background-color:#E4CD80;
 	}
