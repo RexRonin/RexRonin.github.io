@@ -21,14 +21,14 @@ a:hover {
 
 	.nav-pills>li.active>a, .nav-pills>li.hover>a {
 		color:#E4CD80;
-		background-color:#48736F;
+		background-color:#7F853F;
 	}
 
 .content {
 	background-color: #4C585A;
 	margin-top: 10px;
 	padding:20px;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 .footer {
