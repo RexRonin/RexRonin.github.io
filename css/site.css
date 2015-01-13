@@ -8,11 +8,12 @@ a, a:visited {
 }
 
 a:hover {
-	color:#48736F;
+	color:#AF383A;
 }
 
 .header {		
 	padding: 20px;
+	background-image: url("http://rexronin.github.io/images/header_bg.png")
 }
 
 .menu {
