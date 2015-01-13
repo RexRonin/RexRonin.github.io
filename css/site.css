@@ -3,8 +3,12 @@ body {
 	color: #ffffff;
 }
 
-a {
+a, a:visited {
 	color: #E4CD80;
+}
+
+a:hover {
+	color:#48736F;
 }
 
 .header {		
@@ -14,6 +18,11 @@ a {
 .menu {
 	margin-top: 10px;
 }
+
+	.menu nav li {
+		color:#3D4C4E;
+		background-color:#E4CD80;
+	}
 
 .content {
 	background-color: #4C585A;
