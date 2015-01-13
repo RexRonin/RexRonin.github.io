@@ -20,11 +20,7 @@ a:hover {
 }
 
 	.nav-pills>li.active>a, .nav-pills>li.hover>a {
-		color:#48736F;
-		background-color:#7F853F;
-	}
-
-	.nav-pills>li>a.hover {
+		color:#E4CD80;
 		background-color:#48736F;
 	}
 
