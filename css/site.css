@@ -1,5 +1,6 @@
-body {
-	background-image: url(http://rexronin.github.io/images/download.png)
+.header {
+	color: #ffffff;
+	background-image: url(http://rexronin.github.io/images/download.png);
 }
 
 .content {
