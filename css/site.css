@@ -19,9 +19,13 @@ a:hover {
 	margin-top: 10px;
 }
 
-	.nav-pills>li.active>a, .nav-pills>li.hover>a {
+	.nav-pills>li.active>a {
 		color:#E4CD80;
-		background-color:#48736F;
+		background-color:#AF383A;
+	}
+
+	.nav-pills>li.hover>a {
+		color:#AF383A;
 	}
 
 .content {
