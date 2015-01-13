@@ -11,10 +11,8 @@ I have been a developer since I think around 2004(good god, over 11 years :S). I
 I created this site as a place to post hopefully useful stuff I have learned and some stuff that might be useful to other people and maybe the odd opinion piece about development.
 
 If you really want to contact me I guess you can try and talk to me on twitter: [@RexRonin](https://twitter.com/RexRonin). No guarantee of a reply but feel free to try.
-   
-   
-   
-   
+
+</br>
 
 #### What's with the stoopid name?
 
