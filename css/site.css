@@ -13,7 +13,7 @@ a:hover {
 
 .header {		
 	padding: 20px;
-	background-image: url("http://rexronin.github.io/images/header_bg.png")
+	background-image: url("http://rexronin.github.io/images/header_bg.png");
 }
 
 .menu {
@@ -39,6 +39,7 @@ a:hover {
 .footer {
 	padding:20px;
 	margin-top:50px;
+	background-image: url("http://rexronin.github.io/images/footer_bg.png");
 }
 
 .footer .license {
