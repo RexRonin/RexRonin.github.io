@@ -12,7 +12,7 @@ I created this site as a place to post hopefully useful stuff I have learned and
 
 If you really want to contact me I guess you can try and talk to me on twitter: [@RexRonin](https://twitter.com/RexRonin). No guarantee of a reply but feel free to try.
 
-</br>
+<br />
 
 #### What's with the stoopid name?
 
