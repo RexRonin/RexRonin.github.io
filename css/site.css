@@ -20,8 +20,8 @@ a:hover {
 }
 
 	.nav-pills>li.active>a, .nav-pills>li.hover>a {
-		color:#3D4C4E;
-		background-color:#E4CD80;
+		color:#E4CD80;
+		background-color:#48736F;
 	}
 
 .content {
