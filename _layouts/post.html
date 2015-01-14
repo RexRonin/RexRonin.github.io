@@ -45,8 +45,8 @@
 
 						<!-- Post heading -->
 						<div class="item_details">
-				        	<h3>{{ title }}</h3>
-				        	<h4>{{ date | date_to_long_string }}</h4>
+				        	<h3>{{ page.title }}</h3>
+				        	<h4>{{ page.date | date_to_long_string }}</h4>
 				    	</div>
 
 						<!-- Post content -->
@@ -58,7 +58,7 @@
 				        <div class="item_meta">
 				        	<span class="item_tags">
 				        		Tags: 
-				        		{% for tag in tags %}
+				        		{% for tag in page.tags %}
 				        			<a href="/tags/{{ tag }}.html" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}
 				        		{% endfor %}
 				        	</span>
