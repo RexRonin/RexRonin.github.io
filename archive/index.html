@@ -8,8 +8,8 @@ is_archive: true
 	<ul>
 	  {% for post in site.posts %}
 	    <li>
-	      <a href="{{ post.url }}">{{ post.title }}</a>
-	      <span>{{ post.date | date_to_long_string }}</span>
+	      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+	      <span><small>{{ post.date | date_to_long_string }}</small></span>
 	      {{ post.excerpt }}
 	    </li>
 	  {% endfor %}
