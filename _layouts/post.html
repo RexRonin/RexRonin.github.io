@@ -34,7 +34,15 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 
-					{% include header.html %}			
+					<div class="header">
+
+						<div class="title">
+							<h1>Rex Ronin</h1>			
+						</div>
+
+						{% include menu.html %}
+
+					</div>
 
 				</div>
 			</div>
@@ -64,7 +72,19 @@
 				        	</span>
 				        </div>
 
-				        
+				        <!-- Pagination links -->
+				        <div class="pagination">
+						  	{% if page.previous %}
+						    	<a href="{{ page.previous }}" class="previous">Previous</a>
+						  	{% else %}
+						    	<span class="previous">Previous</span>
+						  	{% endif %}
+						  	{% if page.next %}
+						    	<a href="{{ page.next }}" class="next">Next</a>
+						  	{% else %}
+						    	<span class="next ">Next</span>
+						  	{% endif %}
+						</div>
 
 					</div>
 
