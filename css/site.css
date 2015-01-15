@@ -42,11 +42,17 @@ a:hover {
 	background-image: url("http://rexronin.github.io/images/footer_bg.png");
 }
 
-.footer .license {
-	
+.footer .license {	
 	margin-top:30px;
 	margin-bottom: 30px;
 }
+
+/***********************************************/
+
+.articles article .item {
+	padding:10px;
+}
+
 
 /***********************************************/
 
