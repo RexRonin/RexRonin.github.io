@@ -52,8 +52,12 @@ a:hover {
 
 .archive .date {
 	float:right;
-	color:#AF383A;
+	color:#E4CD80;
 }
+
+	.archive .date small {
+		color:#E4CD80;
+	}
 
 /***********************************************/
 .content-license {
