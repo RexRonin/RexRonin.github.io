@@ -50,6 +50,10 @@ a:hover {
 
 /***********************************************/
 
+.archive li {
+	padding: 10px;
+}
+
 .archive .date {
 	float:right;
 	color:#E4CD80;
