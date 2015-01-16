@@ -26,7 +26,7 @@ Yes, I run a windows dev machine but use virtual box to run a ubuntu instance wh
 - [Ubuntu](http://www.ubuntu.com/)
 - [Emacs](http://www.gnu.org/software/emacs/)
 
-###C\#
+###C \#
 - [Visual Studio](http://www.visualstudio.com/)
 
 ###Database
