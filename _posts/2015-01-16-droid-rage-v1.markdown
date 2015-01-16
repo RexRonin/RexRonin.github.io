@@ -4,9 +4,9 @@ title: Droid Rage v1
 tags: rage android google fragment lifecycle
 ---
 
-I'm sitting in the courtyard at the back of my house listening to Interpol's "Everything is Wrong" because it suits my mood. I'm taking a little break from working on the Android app for my startup because I nearly flipped my keyboard in anger at discovering yet another little landmine the Android Dev Team decided to lay for unwary users of their framework. So I have decided instead to spend my time seeing if I can get a new entry added to the rotation of programmer slang:
+I'm sitting in the courtyard at the back of my house listening to Interpol's "Everything is Wrong" because it suits my mood. I'm taking a little break from working on the Android app for my startup because I nearly flipped my keyboard in anger at discovering yet another little trap the Android Dev Team decided to lay for unwary users of their framework. So I have decided instead to spend my time seeing if I can get a new entry added to the rotation of programmer slang:
 
->'droid Rage
+>####'droid Rage:
 >The anger an Android developer feels on a weekly basis at discovering yet another landmine in the Android Framework; Pun on "'roid Rage";
 
 So what caused me to nearly flip my keyboard? [This](http://stackoverflow.com/questions/11353075/how-can-i-maintain-fragment-state-when-added-to-the-back-stack). So why is the fragment transaction pop from backstack behaviour so fury inducing? Where do I start? The thing that made me so angry is that this behaviour means that I need *yet another* nested if statement in the code that initialises my fragments. It is also *yet another* wildly inconsistent behaviour pattern in this framework. So any fragment you write really has to handle the following in their onCreateView function:
@@ -21,5 +21,5 @@ If you sit down and think about it, I'm guessing that this isn't done because of
 
 This highlights my major gripe with the Android framework: It is wildly inconsistent in behaviour and I assume underlying implementation. I'm not sure whether this was caused by the speed with which the initial version was written or that there are just a bunch of people in different parts of the google offices all working on different parts of it with no communication and no oversight so they just implement different bits in the way that suits them best at the time and the people who use the framework can just deal with it. Or that the team is just pretty mediocre and can't actually build a simple or easy to use framework :(
 
-
+####Useful Resources:
 Excellent Android Lifecycle diagram: [Steve Pomeroy](https://plus.google.com/wm/1/+StevePomeroy/posts/HsthxN21Yp1?pid=5914215085941005954&oid=101826485820997153590)
