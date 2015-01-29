@@ -69,13 +69,14 @@ h3, h4 {
 
 /***********************************************/
 
-.item-meta {
+.item_meta {
 	margin-top: 80px;
 }
 
 .pagination {
 	width:100%;
 	font-size: 16px;
+	margin:0 0 10px 0;
 }
 
 .pagination .previous-container {
