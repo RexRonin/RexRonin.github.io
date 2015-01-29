@@ -18,14 +18,15 @@ The most important parts (IMO at least):
 
 ###Reading in the properties from the xml
 
-
-###Hooking up the tap input
-
+{% gist RexRonin/695873bf318baaa0b09a reading_attributes.java %}
 
 ###Animating the values that describe the switch
 
+{% gist RexRonin/695873bf318baaa0b09a animate_values.java %}
 
 ###Drawing
+
+{% gist RexRonin/695873bf318baaa0b09a drawing.java %}
 
 
 There is also a bunch of really tedious code that I'm not going to cover involved in laying out the control when it gets measured and when the size of the control is changed.
