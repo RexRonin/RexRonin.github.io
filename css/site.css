@@ -11,6 +11,10 @@ a:hover {
 	color:#AF383A;
 }
 
+h1, h2, h3, h4 {
+	color:#E4CD80;
+}
+
 .header {		
 	padding: 20px;
 	background-image: url("http://rexronin.github.io/images/header_bg.png");
