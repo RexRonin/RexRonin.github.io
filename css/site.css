@@ -21,6 +21,10 @@ h1, h2, h3, h4 {
 	background-repeat: no-repeat;
 }
 
+.header .title h1 {
+	color:#ffffff;
+}
+
 .menu {
 	margin-top: 10px;
 }
@@ -55,12 +59,18 @@ h1, h2, h3, h4 {
 
 /***********************************************/
 
-.pagination .previous-container {
-	float:left;
+.pagination {
+	position: relative;
 }
 
-.pagination .next-container {
-	float:right;
+.pagination .previous-container {
+	left:0px;
+	position: absolute;
+}
+
+.pagination .next-container {	
+	right: 0px;
+	position: absolute;
 }
 
 /***********************************************/
