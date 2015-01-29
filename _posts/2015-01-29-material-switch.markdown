@@ -12,7 +12,7 @@ Also before anyone points out the obvious, yes this switch doesn't look exactly 
 
 There is a surprising amount of code in this widget, so be warned.
 
-<br/>
+
 
 ---
 
@@ -20,13 +20,14 @@ There is a surprising amount of code in this widget, so be warned.
 
 {% gist RexRonin/695873bf318baaa0b09a example_usage.xml %}
 
+<br/> 
+
 The most important parts (IMO at least):
 
-<br/> 
 
 ---
 
-###Reading in the properties from the xml
+####Reading in the properties from the xml
 
 This is pretty standard, but I think its worth going through the rigmarole so that you can just configure your widgets via xml without having to go through the horror story of half-xml half-java definitions.
 
@@ -35,9 +36,9 @@ This is pretty standard, but I think its worth going through the rigmarole so th
  
 <br/>
 
----
 
-###Animating the values that describe the switch
+
+####Animating the values that describe the switch
 
 This is hopefully again pretty straightforward. The switch uses 1 `ValueAnimator` that animates from 0->1 or 1->0 and each tick it modifies the switch paramenters to move from right to left and change colour and fill. It uses an `ArgbEvaluator` to handle the colours changing during the animation.
 
@@ -46,9 +47,9 @@ This is hopefully again pretty straightforward. The switch uses 1 `ValueAnimator
 
 <br/>
 
----
 
-###Drawing
+
+####Drawing
 
 Again pretty straightforward this just draws out the control using the canvas. 
 
