@@ -14,7 +14,7 @@ There is a surprising amount of code in this widget, so be warned.
 
 
 
----
+
 
 ####Example Usage
 
@@ -25,7 +25,7 @@ There is a surprising amount of code in this widget, so be warned.
 Now on to the most important parts (IMO at least):
 
 
----
+
 
 ####Reading in the properties from the xml
 
@@ -59,7 +59,7 @@ Just a little note about performance here. You should never be allocating object
 
 <br/>
 
----
+
 
 There is also a bunch of really tedious code that I'm not going to cover involved in laying out the control when it gets measured and when the size of the control is changed.
 
