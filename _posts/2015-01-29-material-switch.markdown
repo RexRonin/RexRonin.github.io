@@ -32,6 +32,6 @@ There is also a bunch of really tedious code that I'm not going to cover involve
 
 Also please forgive my use of `x * 0.5f` instead of `x / 2`. Its a hangover from game development in c++. I also do the completely unneccessary ++i instead of i++ at the end of a for loop as well out of habit.
 
-[The complete Gist](<script src="https://gist.github.com/RexRonin/695873bf318baaa0b09a.js"></script>)
+[The complete Gist](https://gist.github.com/RexRonin/695873bf318baaa0b09a)
 
-This widget makes use of some of my general utility functions [here](<script src="https://gist.github.com/RexRonin/12fa0ba593832c8ed7e2.js"></script>)
+This widget makes use of some of my general utility functions [here](https://gist.github.com/RexRonin/12fa0ba593832c8ed7e2)
