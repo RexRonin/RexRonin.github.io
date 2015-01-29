@@ -4,6 +4,10 @@ title: Bogan Ipsum
 tags: test bogan ipsum
 ---
 
+A hilarious Australian alternative to the standard Lorem Ipsum text(as long as you don't mind the odd insulting piece of slang):
+
+####Bogun Ipsum
+
 Flat out like a fruit loop no worries grab us a muster. Shazza got us some coldie bloody get a dog up ya postie. As cunning as a bities how come a too right!. Lets get some figjam my as busy as a spit the dummy. Gutful of ropeable my as busy as a pot. Lets get some christmas to lets get some truckie.
 
 She'll be right kelpie flamin lets get some pot. As cunning as a bush telly mate flat out like a sanger. Shazza got us some spag bol to trent from punchy joey. Lets get some kero how lets get some skite. Lets throw a sleepout when we're going rotten. Trent from punchy drongo when mad as a slacker.
