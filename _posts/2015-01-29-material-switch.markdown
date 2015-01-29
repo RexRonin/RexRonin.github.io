@@ -22,7 +22,7 @@ There is a surprising amount of code in this widget, so be warned.
 
 <br/> 
 
-The most important parts (IMO at least):
+Now on to the most important parts (IMO at least):
 
 
 ---
