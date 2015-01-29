@@ -72,16 +72,18 @@
 				        	</span>
 				        </div>
 
+				        <hr/>
+
 				        <!-- Pagination links -->
 				        <div class="pagination">
 						  	{% if page.previous %}
-						    	<span class="previous-container"><a href="{{ page.previous.url }}" class="previous">Previous</a></span>
+						    	<span class="previous-container"><a href="{{ page.previous.url }}" class="previous">&lt; Previous</a></span>
 						  	{% else %}
 						    	<span class="previous-container"><span class="previous">Previous</span></span>
 						  	{% endif %}
 
 						  	{% if page.next %}
-						    	<span class="next-container"><a href="{{ page.next.url }}" class="next">Next</a></span>
+						    	<span class="next-container"><a href="{{ page.next.url }}" class="next">Next &gt;</a></span>
 						  	{% else %}
 						    	<span class="next-container"><span class="next ">Next</span></span>
 						  	{% endif %}
