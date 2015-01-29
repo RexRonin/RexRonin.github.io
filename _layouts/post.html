@@ -50,27 +50,32 @@
 			<div class="content-container">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-2 content">
+						<article>
+    						<div class="item">
 
-						<!-- Post heading -->
-						<div class="item_details">
-				        	<h3>{{ page.title }}</h3>
-				        	<h4>{{ page.date | date_to_long_string }}</h4>
-				    	</div>
+								<!-- Post heading -->
+								<div class="item_details">
+						        	<h3>{{ page.title }}</h3>
+						        	<h4>{{ page.date | date_to_long_string }}</h4>
+						    	</div>
 
-						<!-- Post content -->
-				    	<div class="item_content">
-							{{content}}
-						</div>
+								<!-- Post content -->
+						    	<div class="item_content">
+									{{content}}
+								</div>
 
-						<!-- Tags -->
-				        <div class="item_meta">
-				        	<span class="item_tags">
-				        		Tags: 
-				        		{% for tag in page.tags %}
-				        			<a href="/tags/{{ tag }}.html" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}
-				        		{% endfor %}
-				        	</span>
-				        </div>
+								<!-- Tags -->
+						        <div class="item_meta">
+						        	<span class="item_tags">
+						        		Tags: 
+						        		{% for tag in page.tags %}
+						        			<a href="/tags/{{ tag }}.html" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}
+						        		{% endfor %}
+						        	</span>
+						        </div>
+						        
+						    </div>
+						</article>
 
 				        <hr/>
 
