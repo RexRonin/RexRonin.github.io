@@ -63,12 +63,12 @@ h1, h2, h3, h4 {
 	position: relative;
 }
 
-.pagination .previous-container {
+.pagination .previous {
 	left:0px;
 	position: absolute;
 }
 
-.pagination .next-container {	
+.pagination .next {	
 	right: 0px;
 	position: absolute;
 }
