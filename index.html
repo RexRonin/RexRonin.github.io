@@ -28,15 +28,20 @@ is_home: true
 {% endfor %}
 </div>
 
+<hr/>
+
 <div class="pagination">
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-      <a href="/" class="previous">Previous</a>
+      <span class="next-container"><a href="/" class="previous">Next</a></span>
     {% else %}
-      <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+      <span class="next-container"><a href="/page{{ paginator.previous_page }}" class="previous">Next</a></span>
     {% endif %}
   {% endif %}
+
   {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+    <span class="previous-container"><a href="/page{{ paginator.next_page }}" class="next">Previous</a></span>
+    {% else %}
+    <span class="previous-container"><span class="previous">Previous</span></span>
   {% endif %}
 </div>
