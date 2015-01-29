@@ -16,7 +16,7 @@ There is a surprising amount of code in this widget, so be warned.
 
 ---
 
-###Example Usage
+####Example Usage
 
 {% gist RexRonin/695873bf318baaa0b09a example_usage.xml %}
 
