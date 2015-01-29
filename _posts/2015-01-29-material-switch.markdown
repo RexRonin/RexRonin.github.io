@@ -63,7 +63,7 @@ Just a little note about performance here. You should never be allocating object
 
 There is also a bunch of really tedious code that I'm not going to cover involved in laying out the control when it gets measured and when the size of the control is changed.
 
-Also please forgive my use of `x * 0.5f` instead of `x / 2`. Its a hangover from game development in c++. I also do the completely unneccessary ++i instead of i++ at the end of a for loop as well out of habit.
+Also please forgive my use of `x * 0.5f` instead of `x / 2`. Its a hangover from game development in c++. I also do the completely unneccessary `++i` instead of `i++` at the end of a for loop as well out of habit.
 
 The complete gist source can be found [here](https://gist.github.com/RexRonin/695873bf318baaa0b09a)
 
