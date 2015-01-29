@@ -75,15 +75,15 @@
 				        <!-- Pagination links -->
 				        <div class="pagination">
 						  	{% if page.previous %}
-						    	<a href="{{ page.previous.url }}" class="previous">Previous</a>
+						    	<div class="previous-container"><a href="{{ page.previous.url }}" class="previous">Previous</a></div>
 						  	{% else %}
-						    	<span class="previous">Previous</span>
+						    	<div class="previous-container"><span class="previous">Previous</span></div>
 						  	{% endif %}
 
 						  	{% if page.next %}
-						    	<a href="{{ page.next.url }}" class="next">Next</a>
+						    	<div class="next-container"><a href="{{ page.next.url }}" class="next">Next</a></div>
 						  	{% else %}
-						    	<span class="next ">Next</span>
+						    	<div class="next-container"><span class="next ">Next</span></div>
 						  	{% endif %}
 						</div>
 
