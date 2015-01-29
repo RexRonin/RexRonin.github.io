@@ -30,8 +30,8 @@ The most important parts (IMO at least):
 
 There is also a bunch of really tedious code that I'm not going to cover involved in laying out the control when it gets measured and when the size of the control is changed.
 
-Also please forgive my use of `x * 0.5f` instead of `x / 2` its a hangover from game development in c++. I also do the completely unneccessary now ++i instead of i++ at the end of a for loop as well out of habit.
+Also please forgive my use of `x * 0.5f` instead of `x / 2`. Its a hangover from game development in c++. I also do the completely unneccessary ++i instead of i++ at the end of a for loop as well out of habit.
 
-[The complete Gist](https://gist.github.com/RexRonin/b854949aec862f66b75b)
+[The complete Gist](<script src="https://gist.github.com/RexRonin/695873bf318baaa0b09a.js"></script>)
 
-This widget makes use of some of my general utility functions [here](https://gist.github.com/RexRonin/12fa0ba593832c8ed7e2)
+This widget makes use of some of my general utility functions [here](<script src="https://gist.github.com/RexRonin/12fa0ba593832c8ed7e2.js"></script>)
