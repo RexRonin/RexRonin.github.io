@@ -8,7 +8,7 @@ I just recently completed upgrading the styling of an android app to conform to 
 
 So I have decided to open source the components I wrote. There are a few of these floating around the web already but none of the ones I found really worked the way I would think they would and no offence(well some offence) to their creators but alot of them were insanely messing and overly complicated. This may of course just be someone in a glass house throwing stones though so I'll let you be the judge of the code. Also of course just feel free to grab the bits you need if it's useful to someone else I am happy.
 
-Also before anyone points out the obvious, yes this switch doesn't look exactly like the material one. Google changed it after I build this one and I haven't bothered to update it yet. In theory it shouldn't be super hard to make the line segments render really thickly and with a curved end to make it look exaclty like the google ones. This code should at least get you most of the way.
+Also before anyone points out the obvious, yes this switch doesn't look exactly like the material one. Google changed it after I built this one and I haven't bothered to update it yet. In theory it shouldn't be super hard to make the line segments render really thickly and with a curved end to make it look exaclty like the google ones. This code should at least get you most of the way.
 
 There is a surprising amount of code in this widget, so be warned.
 
