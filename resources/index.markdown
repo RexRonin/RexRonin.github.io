@@ -21,7 +21,7 @@ This is just a big dumping ground for all the tools etc I use in case anyone is 
 
 #####Android
 
-- [Android Studio](http://developer.android.com/sdk/index.html) This comes with the SDK so is all you need.
+- [Android Studio](http://developer.android.com/sdk/index.html) This comes with the SDK so it's all you need.
 
 <br/>
 
