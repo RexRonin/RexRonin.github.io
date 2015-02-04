@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Icon Fonts
+title: Icon Fonts in Android
 tags: android icon_fonts
 ---
 
