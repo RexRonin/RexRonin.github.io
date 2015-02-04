@@ -22,7 +22,7 @@ Not really. Well maybe, depending on your photoshop/image editor of your choice/
 
 ####Example usage
 
-{% gist RexRonin/263d17c141dd1d7595ad example_usage.xml %}
+{% gist RexRonin/263d17c141dd1d7595ad ExampleUsage.xml %}
 
 <br/>
 
