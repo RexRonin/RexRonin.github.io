@@ -10,7 +10,7 @@ This is just a big dumping ground for all the tools etc I use in case anyone is 
 
 ####Development
 
-#####Blog
+- #####Blog
 
 - [GitHub](https://github.com/) For gists and hosting via GitHub Pages
 - [Jekyll](http://jekyllrb.com/) This what GitHub Pages runs on and its been pretty sweet so far
