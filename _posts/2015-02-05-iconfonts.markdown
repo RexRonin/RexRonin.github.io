@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Icon Fonts in Android
-tags: android icon_fonts
+tags: android iconfont widget
 ---
 
 Are your images bloating the size of your APK files? Do you want a way to make your images scale perfectly without having to splat them out like 5 times for different res devices? Look no further! IconFonts are your friend!
