@@ -4,12 +4,8 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />		
 		<meta name="author" content="Simon Smart" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="
-				{% for tag in page.tags %}
-					{{ tag }}{% if forloop.last != true %}, {% endif %}
-				{% endfor %}
-		">
-		<meta name="description" content="Blog of Simon Smart">
+		<meta name="keywords" content="{% for tag in page.tags %}{{ tag }}{% if forloop.last != true %}, {% endif %}{% endfor %}">
+		<meta name="description" content="Simon Smart's Blog">		
 
 		<title>Rex Ronin - {{ page.title }}</title>
 
