@@ -2,6 +2,7 @@
 layout: post
 title: Workflowy - Order from Chaos
 tags: notprogramming workflowy tools organisation
+is_archive: true
 ---
 
 [WorkFlowy](https://workflowy.com/) is one of my favourite productivity and organisational tools. I use it for a bunch of things: braindumping, planning my day, planning meetings, fleshing out blog posts(like this one), task tracking, a kanban calendar(stolen from [Productiviy Mashup](http://www.productivitymashup.com/blog/2014/8/17/kanban-calendar-workflowy)), basically you name it, you can get workflowy to do it. It is not a hugely complex tool; it is actually very simple, however it is deceptively powerful.
