@@ -2,6 +2,7 @@
 layout: post
 title: Android Material UI Switch
 tags: android material widget switch
+is_archive: true
 ---
 
 I just recently completed upgrading the styling of an android app to conform to google's new [material ui](http://www.google.com/design/spec/material-design/introduction.html). In particular I had to build a few components from scratch as they aren't available to us lowly developers that have to be backwards compatible and support devices that run on things like Android v3.0.

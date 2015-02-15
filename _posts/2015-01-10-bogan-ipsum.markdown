@@ -2,6 +2,7 @@
 layout: post
 title: Bogan Ipsum
 tags: test bogan ipsum
+is_archive: true
 ---
 
 A hilarious Australian alternative to the standard Lorem Ipsum text(as long as you don't mind the odd insulting piece of slang):
