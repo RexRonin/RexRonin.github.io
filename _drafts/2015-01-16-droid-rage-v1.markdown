@@ -28,7 +28,7 @@ Anyway, this is the least of the actual issues. The real crowning glory of this 
         ((ViewGroup)_rootView.getParent()).removeView(_rootView);
     }
 
-So. Like the comment says, IF I have just been popped off the back stack, I have to go and remove **myself** from my parent (which had better damn well be an instance of `ViewGroup`) so that when we return the existing `_rootView` the **framework** won't just throw and exception and crash our app. And people wonder why Android applications seem to crash alot. 
+So. Like the comment says, IF I have just been popped off the back stack, I have to go and remove **myself** from my parent (which had better damn well be an instance of `ViewGroup`) so that when we return the existing `_rootView` the **framework** won't just throw and exception an crash our app. And people wonder why Android applications seem to crash alot. 
 
 Adding insult to injury in this is that this behaviour is just *not mentioned* in the official documentation. It just blithly says:
 

@@ -52,6 +52,11 @@ h5 {
 		color:#AF383A;
 	}
 
+.default .content {
+	margin: 10px 0;
+}
+
+
 .content {
 	background-color: #4C585A;
 	margin-top: 10px;

@@ -14,8 +14,19 @@ This is just a big dumping ground for all the tools etc I use in case anyone is 
 
 - [GitHub](https://github.com/) For gists and hosting via GitHub Pages
 - [Jekyll](http://jekyllrb.com/) This what GitHub Pages runs on and its been pretty sweet so far
-- [Sublime Text](http://www.sublimetext.com/) This is what I currenlty use to write all the Markdown/html/css although I'm starting to experiment with some more specialised markdown tools that offer a preview
+- [Sublime Text 2](http://www.sublimetext.com/) This is what I currenlty use to write all the Markdown/html/css although I'm starting to experiment with some more specialised markdown tools that offer a preview
 - [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax)
+
+<br/>
+
+#####Javascript/Coffeescript/Meteor/Node
+
+- [Manjaro Linux](https://manjaro.github.io/)
+- [i3](https://i3wm.org/)
+- [Sublime Text 2](http://www.sublimetext.com/)
+- [Coffeescript](http://coffeescript.org/)
+- [Node](https://nodejs.org/)
+- [Meteor](https://www.meteor.com/)
 
 <br/>
 
@@ -51,7 +62,7 @@ Yes, I run a windows dev machine but use virtual box to run a ubuntu instance wh
 
 - [Postman](http://www.getpostman.com/)
 - [Paint.Net](http://www.getpaint.net/)
-- [Sublime Text](http://www.sublimetext.com/)
+- [Sublime Text 2](http://www.sublimetext.com/)
 - [Git Extensions](https://code.google.com/p/gitextensions/)
 - [GitHub](https://github.com/)
 
@@ -62,13 +73,6 @@ Yes, I run a windows dev machine but use virtual box to run a ubuntu instance wh
 - [Workflowy](https://workflowy.com/)
 - [Trello](https://trello.com/)
 - [Freshbooks](http://www.freshbooks.com/)
-
-<br/>
-
-####Other Links
-
-- [StackOverflow](http://stackoverflow.com/)
-- [Coding Horror](http://blog.codinghorror.com/)
-- [Devopsreactions](http://devopsreactions.tumblr.com/) This is more timewasting than anything else, but it is hilarious
+- [i3](https://i3wm.org/)
 
 <br/>
