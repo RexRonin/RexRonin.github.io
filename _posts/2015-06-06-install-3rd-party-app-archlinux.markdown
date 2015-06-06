@@ -26,7 +26,7 @@ Download the tar/zip package of the app you want to install(as an example I'm go
 
 #####3. Take ownership of the folder/file you just extracted
 - `sudo chown -R root:root {my-application-folder}`
-	eg. `sudo chown -R root:root ~/Downloads/android-studio /opt`
+	- eg. `sudo chown -R root:root ~/Downloads/android-studio /opt`
 
 #####4. Move the application to the `/opt` directory
 - `sudo mv {my-application-folder}
@@ -35,5 +35,8 @@ Download the tar/zip package of the app you want to install(as an example I'm go
 #####5. Create symlink so you don't have to nav around in bash
 - `sudo ln -s /opt/{my-application-start-file} /usr/local/bin/{my-application-shortcut-name}`
 	- eg. `sudo ln -s /opt/android-studio/bin/studio.sh /usr/local/bin/android-studio`
+
+
+<br/>
 
 Done! Grats, you can now use your new application. 
