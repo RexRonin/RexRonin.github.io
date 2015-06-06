@@ -11,6 +11,8 @@ If you are a Linux noob with a Windows background like me you will probably find
 Notes:
 - whenever I say {my-application-xxxx} I obviously mean the application specific file/folder you just downloaded
 
+<br/>
+
 #####1. Download the package
 Download the tar/zip package of the app you want to install(as an example I'm going to use [Android Studio](https://developer.android.com/sdk/installing/index.html?pkg=studio))
 
