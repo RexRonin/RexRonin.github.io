@@ -11,16 +11,17 @@ If you are a Linux noob with a Windows background like me you will probably find
 Notes:
 - whenever I say {my-application-xxxx} I obviously mean the application specific file/folder you just downloaded
 
-- Download the tar/zip package of the app you want to install(as an example I'm going to use [Android Studio](https://developer.android.com/sdk/installing/index.html?pkg=studio))
+#####Download the package
+Download the tar/zip package of the app you want to install(as an example I'm going to use [Android Studio](https://developer.android.com/sdk/installing/index.html?pkg=studio))
 - Extract the tar/zip to a folder:
-	Tar file:
-	- `tar -zxvf {my-application-tar-file}.tar.gz`
-		eg. `tar -zxvf ~/Downloads/android-studio.tar.gz`
-	Zip file:
-	- open thunar
-	- double-click the file
-	- extract the file
-	- I am embarressed I don't know how to do this with bash yet :(
+	- Tar file:
+		- `tar -zxvf {my-application-tar-file}.tar.gz`
+			- eg. `tar -zxvf ~/Downloads/android-studio.tar.gz`
+	- Zip file:
+		- be embarressed you don't know how to do this with bash yet :(
+		- open thunar
+		- double-click the file
+		- extract the file		
 - Take ownership of the folder/file you just extracted
 	- `sudo chown -R root:root {my-application-folder}`
 		eg. `sudo chown -R root:root ~/Downloads/android-studio /opt`
